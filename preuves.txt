@@ -1,0 +1,30 @@
+│ (index) │ id    │ producteur         │ culture    │ kg    │ rendement │ revenu  │
+├─────────┼───────┼────────────────────┼────────────┼───────┼───────────┼─────────┤
+│ 0       │ 'P01' │ 'Awa Diallo'       │ 'cacao'    │ 1650  │ 550       │ 3300000 │
+│ 1       │ 'P02' │ 'Akissi Brou'      │ 'cacao'    │ 900   │ 450       │ 1800000 │
+│ 2       │ 'P05' │ "Adjoua N'Dri"     │ 'manioc'   │ 16000 │ 8000      │ 1600000 │
+│ 3       │ 'P08' │ 'Aya Yapi'         │ 'cacao'    │ 750   │ 500       │ 1500000 │
+│ 4       │ 'P06' │ 'Mariam Diabaté'   │ 'tomate'   │ 3000  │ 6000      │ 900000  │
+│ 5       │ 'P03' │ 'Fanta Sanogo'     │ 'anacarde' │ 2000  │ 500       │ 800000  │
+│ 6       │ 'P07' │ 'Seydou Bamba'     │ 'riz'      │ 2500  │ 2500      │ 750000  │
+│ 7       │ 'P04' │ 'Ibrahim Ouattara' │ 'mais'     │ 0     │ 0         │ 0       │
+└─────────┴───────┴────────────────────┴────────────┴───────┴───────────┴─────────┘
+
+
+
+✔ totalRecolte additionne les kilos d’une parcelle (1.1875ms)
+✔ totalRecolte vaut 0 pour une parcelle sans récolte (0.112ms)
+✔ rendement divise les kilos par la surface et arrondit (0.0939ms)
+✔ rendement refuse une surface nulle (0.2934ms)
+✔ revenu multiplie les kilos par le prix (0.0949ms)
+✔ bilanRecoltes produit une ligne par parcelle (0.5952ms)
+✔ classerParRevenu trie du plus grand revenu au plus petit (0.1053ms)
+✔ classerParRevenu ne modifie pas le tableau reçu (0.102ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 65.234
